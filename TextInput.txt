@@ -1,0 +1,97 @@
+AIM: 
+Write some simple programs in Java such as 
+i) To find factorial of number. 
+ii) To display first 50 prime numbers. 
+iii) To find sum and average of N numbers. 
+OBJECTIVE: 
+The objective of this assignment is to learn basic java programming syntax
+
+THEORY:
+History of Java:
+> Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991.
+> The  language,  initially  called  Oak after  an  oak  tree  that  stood  outside  Gosling's  office,  also  went  by the  name  Green and ended up later being renamed as Java, from a list of random words.
+> Sun  released  the  first  public  implementation  as  Java  1.0  in  1995.  
+> It promised  Write  Once,  Run  Anywhere  (WORA),  providing  no-cost  run- times on popular platforms.
+Features of Java Language::
+> Object  Oriented:  In  Java,  everything  is  an  Object.  Java  can  be  easily extended since it is based on the Object model.
+> Platform   independent:   Unlike   many   other   programming   languages including  C  and  C++,  when  Java  is  compiled,  it  is  not  compiled  into platform specific machine, rather into platform independent byte code. 
+> This  byte  code  is  distributed  over  the  web  and  interpreted  by  virtual Machine (JVM) on whichever platform it is being run.
+> Simple: Java is designed to be easy to learn. If you understand the basic concept of OOP, Java would be easy to master.
+> Secure:  With  Java's  secure  feature,  it  enables  to  develop  virus-free, tamper-free systems. Authentication techniques are based on public-key encryption.
+> Architectural-neutral:  Java  compiler  generates  an  architecture-neutral object file format, which makes the compiled code to be executable on many processors, with the presence of Java runtime system.
+> Portable:  Being  architectural-neutral  and  having  no  implementation  dependent aspects  of  the  specification  makes  Java  portable.  Compiler  in  Java  is  written  in ANSI C with a clean portability boundary which is a POSIX subset.
+> Robust: Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking.
+> Multithreaded: With Java's multithreaded feature, it is possible to write programs that can do many tasks simultaneously.   This design feature allows developers to construct smoothly running interactive applications.
+> Interpreted:  Java   byte   code   is   translated   on   the   fly   to   native   machine instructions  and  is  not  stored anywhere. The development process is more rapid and analytical since the linking is an incremental and lightweight process.
+> High  Performance:    With  the  use  of  Just-In-Time  compilers,  Java  enables  high performance.
+> Distributed: Java is designed for the distributed environment of the internet.
+> Dynamic: Java  is  considered  to  be  more  dynamic  than  C  or  C++  since  it  is designed   to   adapt   to   an evolving   environment.   Java   programs   can   carry extensive   amount   of   run-time   information   that   can   be  used  to verify  and resolve accesses to objects on run-time.
+
+
+
+
+
+
+
+
+
+
+
+
+JAVA VS C:
+> C is POP and Java is OOP language.
+> Java does not include the C unique statement keywords sizeof and typedef.
+> Java does not contain the data types struct and union.
+> Java does not define the type modifiers keywords auto, extern, register, signed, and unsigned.
+> Java does not support an explicit pointer type.
+> Java does not have a preprocessor and therefore and therefore we cannot use #define, #include, and #ifdef statements.
+> Java requires that the function with no arguments must be declared with empty parenthesis and not with the void keyword as done in  C.
+> Java adds new operators such as instanceof and >>>.
+> Java adds labeled break and continue statements.
+> Java adds many features required for object oriented programming.
+
+
+JAVA VS C++:
+> Java does not support operator overloading.
+> Java does not have template classes as in c++.
+> Java does not support multiple inheritance of classes. 
+o This is accomplished using a new feature called “interface”. 
+> Java does not support global variables. Every variable and method is declared within the class and forms part of that class.
+> Java does not use pointers.
+> Java has replaced the destructor function with a finalize () function.
+> There is no header file in java.
+
+
+
+
+
+
+
+
+
+• JAVA Program Structure:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conclusion:
+? Source file name should be same as class name containing main method.
+? The keyword static allows main( ) to be called without having to instantiate a particular instance of the class.  This is necessary since main( )is called by the Java Virtual Machine before any objects are made. 
+? System.out.println():
+? println() method is member of the out object, which is static data member of System class.
+
+
